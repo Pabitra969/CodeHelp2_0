@@ -1,2 +1,2 @@
-we can inherit protected properties form parent class to child class -> form this child class we can also inherit
-the parent class properties of parent class from the first inherited class( in this scenario )
+we can inherit protected properties form parent class to child class -> form this child class we can also
+inherit the parent class properties of parent class from the first inherited class( in this scenario )

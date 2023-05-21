@@ -316,6 +316,68 @@ build CodeHelp2_0_8: CXX_EXECUTABLE_LINKER__CodeHelp2_0_8_Debug CMakeFiles/CodeH
   TARGET_FILE = CodeHelp2_0_8
   TARGET_PDB = CodeHelp2_0_8.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target CodeHelp2_0_9
+
+
+#############################################
+# Order-only phony target for CodeHelp2_0_9
+
+build cmake_object_order_depends_target_CodeHelp2_0_9: phony || CMakeFiles/CodeHelp2_0_9.dir
+
+build CMakeFiles/CodeHelp2_0_9.dir/OOPs/polymorphism/main.cpp.o: CXX_COMPILER__CodeHelp2_0_9_Debug /Users/pabitra/Desktop/Clion$ C$ Coding/CodeHelp2.0/OOPs/polymorphism/main.cpp || cmake_object_order_depends_target_CodeHelp2_0_9
+  DEP_FILE = CMakeFiles/CodeHelp2_0_9.dir/OOPs/polymorphism/main.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/CodeHelp2_0_9.dir
+  OBJECT_FILE_DIR = CMakeFiles/CodeHelp2_0_9.dir/OOPs/polymorphism
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CodeHelp2_0_9
+
+
+#############################################
+# Link the executable CodeHelp2_0_9
+
+build CodeHelp2_0_9: CXX_EXECUTABLE_LINKER__CodeHelp2_0_9_Debug CMakeFiles/CodeHelp2_0_9.dir/OOPs/polymorphism/main.cpp.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/CodeHelp2_0_9.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = CodeHelp2_0_9
+  TARGET_PDB = CodeHelp2_0_9.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CodeHelp2_0_10
+
+
+#############################################
+# Order-only phony target for CodeHelp2_0_10
+
+build cmake_object_order_depends_target_CodeHelp2_0_10: phony || CMakeFiles/CodeHelp2_0_10.dir
+
+build CMakeFiles/CodeHelp2_0_10.dir/OOPs/polymorphism/method_overriding/main.cpp.o: CXX_COMPILER__CodeHelp2_0_10_Debug /Users/pabitra/Desktop/Clion$ C$ Coding/CodeHelp2.0/OOPs/polymorphism/method_overriding/main.cpp || cmake_object_order_depends_target_CodeHelp2_0_10
+  DEP_FILE = CMakeFiles/CodeHelp2_0_10.dir/OOPs/polymorphism/method_overriding/main.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/CodeHelp2_0_10.dir
+  OBJECT_FILE_DIR = CMakeFiles/CodeHelp2_0_10.dir/OOPs/polymorphism/method_overriding
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CodeHelp2_0_10
+
+
+#############################################
+# Link the executable CodeHelp2_0_10
+
+build CodeHelp2_0_10: CXX_EXECUTABLE_LINKER__CodeHelp2_0_10_Debug CMakeFiles/CodeHelp2_0_10.dir/OOPs/polymorphism/method_overriding/main.cpp.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/CodeHelp2_0_10.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = CodeHelp2_0_10
+  TARGET_PDB = CodeHelp2_0_10.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -350,7 +412,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/pabitra/Desktop/Clion C Coding/CodeHelp2.0/cmake-build-debug
 
-build all: phony CodeHelp2_0 CodeHelp2_0_1 CodeHelp2_0_2 CodeHelp2_0_3 CodeHelp2_0_4 Codehelp2_0_5 CodeHelp2_0_6 CodeHelp2_0_7 CodeHelp2_0_8
+build all: phony CodeHelp2_0 CodeHelp2_0_1 CodeHelp2_0_2 CodeHelp2_0_3 CodeHelp2_0_4 Codehelp2_0_5 CodeHelp2_0_6 CodeHelp2_0_7 CodeHelp2_0_8 CodeHelp2_0_9 CodeHelp2_0_10
 
 # =============================================================================
 # Built-in targets
